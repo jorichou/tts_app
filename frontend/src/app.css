@@ -1,0 +1,12 @@
+:root {
+  font-family: "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  color: #1f2937;
+  background:
+    radial-gradient(circle at top, #fff8e8 0%, #f6efe3 45%, #efe7da 100%);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
