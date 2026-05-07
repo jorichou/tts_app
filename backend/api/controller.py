@@ -7,4 +7,4 @@ audio_service = AudioService()
 @router.post("/synthesize")
 async def synthesize(file: UploadFile = File(...)):
     audio_bytes = await audio_service.generate_audio(file)
-    return Response(content=audio_bytes, media_type="audio/wav")
+    return Response(content=audio_bytes, media_type="audio/mpeg")
